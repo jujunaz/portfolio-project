@@ -1,6 +1,6 @@
 
 body {
-  background-color: #eeeeee;
+  background-color: grey;
   color: #030303;
   margin: 0;
   padding: 0;
@@ -11,8 +11,8 @@ body {
 }
 
 .content {
-  background-color: #030303;
-  color: #eeeeee;
+  background-color: lightgrey;
+  color: black;
   padding: 15px;
 }
 
@@ -20,9 +20,13 @@ p {
   margin: 0 15px;
 }
 ul li {
+  float: left;
   display: inline;
+  margin: 15px;
 }
+
 p.class'exp' {
-  font-size: 20px
+  font-size: 20px;
   font-weight: bold;
+  margin: 25px;
 }
